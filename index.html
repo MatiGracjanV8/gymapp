@@ -114,15 +114,17 @@
         </div>
     </div>
     <div class="login_page">
-        <div class="imageContainer">
-            <i class="fa-solid fa-user"></i>
-            <div class="filter_photo"></div>
+        <div class="login_content">
+            <div class="imageContainer">
+                <i class="fa-solid fa-user"></i>
+                <div class="filter_photo"></div>
+            </div>
+            <form id="loginForm">
+                <input placeholder="Nazwa" id="userName">
+                <button type="button" onclick="login()"><i class="fa-solid fa-right-long"></i></button>
+            </form>
+            <div class="error">error</div>
         </div>
-        <form id="loginForm">
-            <input placeholder="Nazwa" id="userName">
-            <button type="button" onclick="login()"><i class="fa-solid fa-right-long"></i></button>
-        </form>
-        <div class="error">error</div>
     </div>
 </body>
 

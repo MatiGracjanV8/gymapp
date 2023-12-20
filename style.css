@@ -415,17 +415,22 @@ body {
     background: linear-gradient(0deg, #cae4fa, #fff);
     z-index: 100;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20%;
-    padding: 60% 0;
     transition: .3s;
     opacity: 0;
 }
-
+.login_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 50px;
+}
 .imageContainer {
-    width: 50%;
+    width: 50vw;
     aspect-ratio: 1;
     background-color: rgba(0, 0, 0, .05);
     border-radius: 50%;
